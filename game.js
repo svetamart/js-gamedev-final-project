@@ -5,7 +5,7 @@ var Game = function () {
 
   this.running = false;
 
-  var filePath = 'https://raw.githubusercontent.com/svetamart/js-game-final-project/main/ru_short.txt';
+  var filePath = 'https://raw.githubusercontent.com/svetamart/js-gamedev-final-project/main/ru_short.txt';
   fetch(filePath)
     .then(response => response.text())
     .then(data => {
